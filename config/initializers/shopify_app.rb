@@ -6,5 +6,5 @@ ShopifyApp.configure do |config|
                                  # https://help.shopify.com/en/api/getting-started/authentication/oauth/scopes
   config.embedded_app = true
   config.after_authenticate_job = false
-  config.session_repository = ShopifyApp::InMemorySessionStore
+  config.session_repository = Shop
 end
